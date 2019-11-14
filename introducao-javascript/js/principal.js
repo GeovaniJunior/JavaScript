@@ -40,3 +40,16 @@ for (var i = 0; i < pacientes.length; i++){
         tdIMC.textContent = imc.toFixed(2);
     }
 }
+
+titulo.addEventListener("click", function (){
+    console.log("Olá eu fui clicado!");
+}
+);
+
+
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function (){
+    console.log("Olá eu fui clicado!");
+}
+);
